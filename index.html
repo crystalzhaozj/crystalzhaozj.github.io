@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Information Architect & Researcher</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --text: #1a1a1a;
+      --muted: #666666;
+      --border: #e5e5e5;
+      --accent: #0055d4;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121212;
+        --text: #e0e0e0;
+        --muted: #a0a0a0;
+        --border: #2a2a2a;
+        --accent: #4d94ff;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 1rem;
+      margin-top: 0.25rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav a, .links a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    nav a:hover, .links a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.25rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      font-size: 0.98rem;
+    }
+
+    .item {
+      margin-bottom: 1.25rem;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .item-title {
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    .item-meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .item-desc {
+      font-size: 0.92rem;
+      color: var(--text);
+      margin-top: 0.25rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 1.25rem;
+      font-size: 0.92rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- HEADER -->
+    <header>
+      <h1>Zijing (Crystal) Zhao</h1>
+      <p class="subtitle">Information Architect & Sociotechnical Researcher</p>
+      <p class="subtitle">B.A. Candidate in Data Science & Peace and Justice | Wellesley College</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#praxis">Praxis & Policy</a>
+        <a href="mailto:your.email@wellesley.edu">Email</a>
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+      </nav>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I specialize in <strong>Information Architecture</strong> to support access and governance across public-facing educational and civic technologies. Bringing an interdisciplinary Data Science background, my goal is to co-develop data governance strategies alongside affected communities and implement them on open-source platforms.
+      </p>
+      <p>
+        My work bridges computational trace data analysis, critical interaction design, and participatory auditing—investigating how we can preserve "productive friction" within automated systems to foster metacognition, agency, and digital equity.
+      </p>
+    </section>
+
+    <!-- RESEARCH & PUBLICATIONS -->
+    <section id="research">
+      <h2>Research & Publications</h2>
+      
+      <div class="item">
+        <div class="item-header">
+          <span class="item-title">EthicsBot: Open-Source LLMs for Research Ethics</span>
+          <span class="item-meta">CSCW 2026 Workshop</span>
+        </div>
+        <p class="item-desc">
+          First-authored study benchmarking open-source LLMs to provide real-time, context-aware ethical guidance for CS researchers. Evaluated tool adoption across 16 interdisciplinary expert interviews to map variations in user learning needs.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span class="item-title">Participatory Action Research in AI Literacy</span>
+          <span class="item-meta">MIT Media Lab (Personal Robots Group)</span>
+        </div>
+        <p class="item-desc">
+          Facilitated participatory action research (PAR) seminars for K-12 educators across 11 countries, using empathy mapping, card sorting, and peer algorithmic auditing to surface localized community concerns on classroom AI.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span class="item-title">Taxonomies of AI Fear & Pedagogical Interventions</span>
+          <span class="item-meta">Independent Research Study</span>
+        </div>
+        <p class="item-desc">
+          Mining online student discourse via web scraping and thematic coding to categorize public mental models of AI anxiety, designing educational interventions that empower learners to build critical literacy.
+        </p>
+      </div>
+    </section>
+
+    <!-- PRAXIS & PROJECTS -->
+    <section id="praxis">
+      <h2>Praxis & Public Policy</h2>
+      
+      <div class="item">
+        <div class="item-header">
+          <span class="item-title">Control Arms (Geneva) — Coordination & Design</span>
+          <span class="item-meta">Albright Institute Fellow</span>
+        </div>
+        <p class="item-desc">
+          Restructured frontend web assets to optimize low-bandwidth accessibility for international delegates in developing nations. Facilitated consultations on gender-based violence across the Asia-Pacific, Africa, and Latin America to align regional practice with UN policy.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span class="item-title">Interactive Web Cookies Privacy Tool</span>
+          <span class="item-meta">Streamlit / Python</span>
+        </div>
+        <p class="item-desc">
+          Co-designed an open-source interactive web application deployed on Streamlit, allowing users to upload browser data and engage with dynamic visual representations of digital tracking and data privacy.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span class="item-title">CS Department Inclusivity Curriculum Module</span>
+          <span class="item-meta">Wellesley College</span>
+        </div>
+        <p class="item-desc">
+          Initiated and authored a curriculum module examining power, privilege, and oppressive systems within computer science, integrated into intermediate computer science coursework.
+        </p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2026 Zijing (Crystal) Zhao</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
